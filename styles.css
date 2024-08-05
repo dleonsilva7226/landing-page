@@ -1,0 +1,79 @@
+* {
+    font-family:"Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.header-container {
+    display: flex;
+    background: #1F2937;
+    justify-content: space-between;
+    flex: 1;
+    padding: 50px;
+    /* flex-direction: column; */
+}
+
+.header-logo {
+   font-size: 24px;
+   color: #F9FAF8; 
+   font-weight: bold;
+   /* background: black; */
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.header-links-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.header-image-container {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+    background: gray;
+    padding: 30px;
+    width: 400px;
+    height: 200px;
+}
+
+.header-text-container{
+    /* Make it so content in the container can have a gap between each other */
+    /* margin-bottom: 10px; */
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-text-content {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+}
+
+.sign-up-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
